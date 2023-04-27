@@ -59,7 +59,7 @@ body{
 
 .main__section__but{
 	display: flex;
-	flex-direction: column
+	flex-direction: column;
 }
 
 .but__menu:hover{
