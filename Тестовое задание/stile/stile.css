@@ -1,0 +1,81 @@
+body{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.main__main{
+	display: flex;
+	background-color: #E9E9E3;
+	width: 1440px;
+	height: 1277px;
+	padding-top: 120px;
+	padding-left: 56px;
+	padding-right: 56px;
+}
+
+.main__section{
+}
+
+.p__menu{
+	font-family: 'Azeret Mono', monospace;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+	color: #6F6F64;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 17px;
+}
+
+.p__info{
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 45px;
+	color: #6F6F64;
+	width: 531px;
+	margin-bottom: 74px;
+}
+
+.but__menu{
+	width: 531px;
+	height: 58px;
+	background: #E9E9E3;
+	border-radius: 0px;
+	border: 2px solid #6F6F64;
+	margin-bottom: 12px;
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 24px;
+	text-align: center;
+	color: #6F6F64;
+}
+
+.main__section__but{
+	display: flex;
+	flex-direction: column
+}
+
+.but__menu:hover{
+	background-color: #6F6F64; 
+	color: #FFFFFF;
+}
+
+.main__section__pic{
+	position: absolute;
+	margin-left: 776px;
+}
+
+
+.main__section__pic img{
+	width: 664px;
+	height: 1037px;
+	position: absolute;
+	overflow: visible;
+}
